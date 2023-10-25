@@ -6,6 +6,16 @@ main {
 /* Sidebar */
 #sidebar {
     width: var(--sidebar-width-1);
+    background-color: #12283e;
+    background-image: url("../../img/sidebar-bg.png");
+    padding: 1.5rem;
+}
+
+#sidebar button {
+    color: white;
+    background-color: transparent;
+    border: none;
+    padding: 8px 0;
 }
 
 /* /Sidebar */
