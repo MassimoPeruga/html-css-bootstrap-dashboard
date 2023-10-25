@@ -1,0 +1,40 @@
+main {
+    height: calc(100vh - var(--header-height));
+    margin-top: var(--header-height);
+}
+
+/* Sidebar */
+#sidebar {
+    width: var(--sidebar-width-1);
+}
+
+/* /Sidebar */
+
+/* Main Content */
+#main_container {
+    width: calc(100vw - var(--sidebar-width-1));
+}
+
+/* /Main Content */
+
+/* Responsive */
+/* Desktop */
+@media (min-width: 1200px) {
+
+    /* Sidebar */
+    #sidebar {
+        width: var(--sidebar-width-2);
+    }
+
+    /* /Sidebar */
+
+    /* Main Content */
+    #main_container {
+        width: calc(100vw - var(--sidebar-width-2));
+    }
+
+    /* /Main Content */
+}
+
+/* /Desktop */
+/* /Responsive */

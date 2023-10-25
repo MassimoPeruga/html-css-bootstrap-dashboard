@@ -1,0 +1,30 @@
+header {
+    height: var(--header-height);
+    background-color: #f8f9fa;
+}
+
+#logo-small {
+    height: 50px;
+}
+
+#logo-xl {
+    width: var(--sidebar-width-2);
+    padding-left: 12px;
+    padding-right: 5px;
+}
+
+#search>* {
+    background-color: #e5e5e5;
+}
+
+#dropdown::after {
+    display: none;
+}
+
+#dropdown:hover,
+#dropdown:active,
+#dropdown:focus-visible {
+    background-color: transparent;
+    color: #ffc107;
+    box-shadow: none;
+}
