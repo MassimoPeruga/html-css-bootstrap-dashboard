@@ -25,11 +25,26 @@ main {
     width: calc(100vw - var(--sidebar-width-1));
 }
 
+/* Main Top */
+#main-top {
+    padding: 30px 14px;
+}
+
+#main-top #main-top-left div span {
+    background-color: #165bba;
+}
+
+#ms_custom_offcanvas {
+    width: 100%;
+}
+
+/* Main Top */
+
 /* /Main Content */
 
 /* Responsive */
 /* Desktop */
-@media (min-width: 1200px) {
+@media (min-width: 992px) {
 
     /* Sidebar */
     #sidebar {
@@ -41,6 +56,10 @@ main {
     /* Main Content */
     #main_container {
         width: calc(100vw - var(--sidebar-width-2));
+    }
+
+    #ms_custom_offcanvas {
+        width: 40%;
     }
 
     /* /Main Content */
