@@ -27,3 +27,9 @@ header {
     color: #ffc107;
     box-shadow: none;
 }
+
+#dropdown.btn.show {
+    background-color: transparent;
+    color: #ffc107;
+    box-shadow: none;
+}

@@ -24,10 +24,6 @@ main {
 /* /Sidebar */
 
 /* Main Content */
-#main_container {
-    width: calc(100vw - var(--sidebar-width-1));
-}
-
 /* Main Top */
 #main-top {
     padding: 30px 14px;
@@ -46,6 +42,10 @@ main {
 /* Main Info */
 #info {
     color: var(--bs-dark);
+}
+
+.ms_avatar {
+    width: 1.875rem;
 }
 
 /* /Main Info */
@@ -68,10 +68,6 @@ main {
     /* /Sidebar */
 
     /* Main Content */
-    #main_container {
-        width: calc(100vw - var(--sidebar-width-2));
-    }
-
     #ms_custom_offcanvas {
         width: 55%;
     }
