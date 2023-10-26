@@ -43,7 +43,7 @@ main {
 /* /Main Content */
 
 /* Responsive */
-/* Desktop */
+/* Desktop L*/
 @media (min-width: 992px) {
 
     /* Sidebar */
@@ -63,11 +63,20 @@ main {
     }
 
     #ms_custom_offcanvas {
-        width: 40%;
+        width: 55%;
     }
 
     /* /Main Content */
 }
 
-/* /Desktop */
+/* /Desktop L */
+
+/* Desktop XL*/
+@media (min-width: 1200px) {
+    #ms_custom_offcanvas {
+        width: 40%;
+    }
+}
+
+/* /Desktop XL */
 /* /Responsive */
