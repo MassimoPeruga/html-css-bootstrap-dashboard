@@ -40,7 +40,7 @@
                             <span class="input-group-text border-end-0 text-black p-2" id="basic-addon1">
                                 <i class="fa-solid fa-magnifying-glass"></i>
                             </span>
-                            <input type="text" class="form-control border-start-0 ps-1"
+                            <input type="text" id="input_search" class="form-control border-start-0 ps-1"
                                 placeholder="Prova a cercare: Lezioni di Laravel"
                                 aria-label="Prova a cercare: Lezioni di Laravel" aria-describedby="basic-addon1">
                         </div>
@@ -118,7 +118,7 @@
                             <div class="offcanvas offcanvas-end" data-bs-scroll="true" tabindex="-1"
                                 id="ms_custom_offcanvas" aria-labelledby="ms_custom_offcanvas">
                                 <div class="offcanvas-header">
-                                    <h5 class="offcanvas-title" id="ms_custom_offcanvas">
+                                    <h5 class="offcanvas-title">
                                         Inserisci un nuovo studente
                                     </h5>
                                     <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
@@ -140,9 +140,9 @@
                                             <label for="inputEmail4" class="form-label">Email</label>
 
                                             <div class="input-group">
-                                                <span class="input-group-text" id="basic-addon1">@</span>
-                                                <input type="email" class="form-control" placeholder="" aria-label=""
-                                                    aria-describedby="basic-addon1">
+                                                <span class="input-group-text" id="basic-addon2">@</span>
+                                                <input type="email" class="form-control" id="inputEmail4" placeholder=""
+                                                    aria-label="" aria-describedby="basic-addon2">
                                             </div>
                                         </div>
                                         <div class="col-6">
@@ -222,14 +222,12 @@
                                 <table class="table mb-0 text-center">
                                     <thead>
                                         <tr>
-                                            <th scope="col" colspan="6" class="text-start text-secondary">Nome
-                                            </th>
+                                            <th scope="col" colspan="6" class="text-start text-secondary">Nome</th>
                                             <th scope="col" class="d-none d-sm-table-cell"></th>
                                             <th scope="col" class="d-none d-sm-table-cell"></th>
                                             <th scope="col" class="d-none d-sm-table-cell"></th>
                                             <th scope="col" class="d-none d-sm-table-cell"></th>
                                             <th scope="col" class="d-none d-sm-table-cell"></th>
-
                                             <th scope="col" class="text-secondary d-none d-md-table-cell">
                                                 Data inizio
                                             </th>
@@ -251,7 +249,6 @@
                                             <td class="d-none d-sm-table-cell"></td>
                                             <td class="d-none d-sm-table-cell"></td>
                                             <td class="d-none d-sm-table-cell"></td>
-
                                             <td class="d-none d-md-table-cell">15 Feb 2021</td>
                                             <td class="d-none d-md-table-cell">20%</td>
                                             <td><span class="badge text-bg-success">Done</span></td>
@@ -276,7 +273,6 @@
                                             <td class="d-none d-sm-table-cell"></td>
                                             <td class="d-none d-sm-table-cell"></td>
                                             <td class="d-none d-sm-table-cell"></td>
-
                                             <td class="d-none d-md-table-cell">16 Feb 2021</td>
                                             <td class="d-none d-md-table-cell">20%</td>
                                             <td><span class="badge text-bg-success">Done</span></td>
@@ -301,7 +297,6 @@
                                             <td class="d-none d-sm-table-cell"></td>
                                             <td class="d-none d-sm-table-cell"></td>
                                             <td class="d-none d-sm-table-cell"></td>
-
                                             <td class="d-none d-md-table-cell">17 Feb 2021</td>
                                             <td class="d-none d-md-table-cell">20%</td>
                                             <td><span class="badge text-bg-warning text-white">Process</span></td>
@@ -326,7 +321,6 @@
                                             <td class="d-none d-sm-table-cell"></td>
                                             <td class="d-none d-sm-table-cell"></td>
                                             <td class="d-none d-sm-table-cell"></td>
-
                                             <td class="d-none d-md-table-cell">18 Feb 2021</td>
                                             <td class="d-none d-md-table-cell">20%</td>
                                             <td><span class="badge text-bg-success">Done</span></td>
@@ -351,7 +345,6 @@
                                             <td class="d-none d-sm-table-cell"></td>
                                             <td class="d-none d-sm-table-cell"></td>
                                             <td class="d-none d-sm-table-cell"></td>
-
                                             <td class="d-none d-md-table-cell">19 Feb 2021</td>
                                             <td class="d-none d-md-table-cell">20%</td>
                                             <td><span class="badge text-bg-danger">Failed</span></td>
@@ -376,7 +369,6 @@
                                             <td class="d-none d-sm-table-cell"></td>
                                             <td class="d-none d-sm-table-cell"></td>
                                             <td class="d-none d-sm-table-cell"></td>
-
                                             <td class="d-none d-md-table-cell">20 Feb 2021</td>
                                             <td class="d-none d-md-table-cell">20%</td>
                                             <td><span class="badge text-bg-success">Done</span></td>
@@ -401,7 +393,6 @@
                                             <td class="d-none d-sm-table-cell"></td>
                                             <td class="d-none d-sm-table-cell"></td>
                                             <td class="d-none d-sm-table-cell"></td>
-
                                             <td class="d-none d-md-table-cell">21 Feb 2021</td>
                                             <td class="d-none d-md-table-cell">20%</td>
                                             <td><span class="badge text-bg-danger">Failed</span></td>
@@ -426,7 +417,6 @@
                                             <td class="d-none d-sm-table-cell"></td>
                                             <td class="d-none d-sm-table-cell"></td>
                                             <td class="d-none d-sm-table-cell"></td>
-
                                             <td class="d-none d-md-table-cell">22 Feb 2021</td>
                                             <td class="d-none d-md-table-cell">20%</td>
                                             <td><span class="badge text-bg-success">Done</span></td>
